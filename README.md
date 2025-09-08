@@ -6,6 +6,17 @@ Terminal-based real-time PHP-FPM Monitor
 
 Download latest release and run
 
+### Linux
+```bash
+curl -L -o fpm-monitor https://github.com/supercute/fpm-monitor/releases/latest/download/fpm-monitor_linux_amd64 && chmod +x fpm-monitor 
+````
+
+### MacOS
+
+```bash
+curl -L -o fpm-monitor https://github.com/supercute/fpm-monitor/releases/latest/download/fpm-monitor_macos_arm64 && chmod +x fpm-monitor
+```
+
 ## PHP-FPM Configuration
 
 Enable the status page in your PHP-FPM pool configuration:
