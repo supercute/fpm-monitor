@@ -38,3 +38,7 @@ Usage of ./fpm-monitor:
     -url string
         PHP-FPM status URL (default "http://localhost/status")
 ```
+
+## License
+MIT License
+
